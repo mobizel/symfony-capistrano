@@ -1,0 +1,7 @@
+{
+    "name": "mobizel/symfony-capistrano",
+    "description": "Capistrano configuration to deploy your Symfony apps.",
+    "type": "library",
+    "license": "MIT",
+    "require": {}
+}
