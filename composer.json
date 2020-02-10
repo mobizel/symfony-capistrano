@@ -3,5 +3,8 @@
     "description": "Capistrano configuration to deploy your Symfony apps.",
     "type": "library",
     "license": "MIT",
-    "require": {}
+    "require": {
+        "php": "^7.2",
+        "symfony/flex": "^1.3"
+    }
 }
