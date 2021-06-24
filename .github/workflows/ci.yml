@@ -35,9 +35,5 @@ jobs:
                     coverage: none
 
             -
-                name: Setup a new Symfony application
-                run: symfony new test-app --no-git
-
-            -
-                name: Install Symfony Capistrano package
-                run: (cd test-app && composer require mobizel/symfony-capistrano)
+                name: Install dependencies
+                run: composer install --no-interaction
