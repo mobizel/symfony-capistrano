@@ -4,6 +4,8 @@ lock '>= 3.11.0'
 set :symfony_directory_structure, 3
 set :sensio_distribution_version, 5
 
+set :format_options, log_file: "var/log/capistrano.log"
+
 # symfony-standard edition directories
 set :config_path, "config"
 set :web_path, "public"
