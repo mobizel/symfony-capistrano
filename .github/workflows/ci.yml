@@ -13,7 +13,7 @@ jobs:
     static-checks:
         runs-on: ubuntu-latest
 
-        name: "Static checks (PHP ${{ matrix.php }})"
+        name: "PHP ${{ matrix.php }}"
 
         strategy:
             fail-fast: false
