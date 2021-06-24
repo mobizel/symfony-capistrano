@@ -36,7 +36,7 @@ jobs:
 
             -
                 name: Setup a new Symfony application
-                run: symfony new test-app
+                run: symfony new test-app --no-git
 
             -
                 name: Install Symfony Capistrano package
